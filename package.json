@@ -1,0 +1,56 @@
+{
+  "name": "dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A dashboard scaffolding based on Vue.js 3.0 & Vite.",
+  "keywords": [
+    "dashboard",
+    "scaffolding",
+    "vue",
+    "vue-cli",
+    "vue-i18n",
+    "vue-router",
+    "vuejs",
+    "vuex",
+    "zce"
+  ],
+  "repository": "zce/dashboard",
+  "license": "MIT",
+  "author": "zce <w@zce.me> (https://zce.me)",
+  "main": "N/A",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "prepare": "husky install .github/husky"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "renovate": {
+    "extends": [
+      "zce"
+    ]
+  },
+  "dependencies": {
+    "axios": "0.21.1",
+    "core-js": "3.10.0",
+    "element-plus": "1.0.2-beta.36",
+    "nprogress": "0.2.0",
+    "vue": "3.0.11",
+    "vue-i18n": "9.0.0",
+    "vue-router": "4.0.5",
+    "vuex": "4.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "12.1.1",
+    "@commitlint/config-conventional": "12.1.1",
+    "@vitejs/plugin-vue": "1.2.1",
+    "@vue/compiler-sfc": "3.0.11",
+    "husky": "6.0.0",
+    "sass": "1.32.8",
+    "vite": "2.1.5"
+  }
+}
